@@ -139,6 +139,6 @@ def __show(img, x, y):
 if __name__ == '__main__':
     model = load_model("model\\snapshot_6.keras")
 
-    img_path = 'data\\Eliza\\cropped\\06.png'
+    img_path = 'data\\test.png'
     read_image(img_path, vstep=28, hstep=28, cutoff=0.5)
     log('done')
